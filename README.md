@@ -1,13 +1,13 @@
 # Calcula-Express
-Projeto realizado através do desafio do professo Gustavo Guanabara. Projeto realizado com linguagem Python. 
+Este projeto, desenvolvido em Python como parte do Desafio 06 do Professor Gustavo Guanabara, tem como objetivo colocar em prática as seguintes operações: multiplicação e potência. 
 
 O Desáfio 06: Crie um algoritmo que leia um número e mostre o seu dobro, trilho e raiz quadrada.
 
-O nome da váriável é 'n', para que todo número 'int' inserido 'input' pelo usuário seja apresentado na tela. Para realizar o calcúlo realizei a criação com a seguinte formatação, o print é para vizualizar a informação na tela o 'f' pode inserir expressões diretamente dentro da string usando chaves {}. Na expressão {n*2} valor da variável n será multiplicado por 2, e o resultado dessa multiplicação será inserido na string nesta posição {n}, concluído o calculo de qual é o dobro do número inserido pelo usuário. 
+A variável n armazena o número inteiro (int) fornecido pelo usuário através da função input(). A função print() com uma f-string (f'...') é utilizada para exibir os resultados. Dentro da string, as expressões entre chaves {} são avaliadas e seus valores são inseridos. Por exemplo, {n*2} calcula o dobro do valor armazenado em n e o insere na string.
 
-Na linha 4 ira ocorrer uma situação semelhante, porem ocorrendo uma operação para encontrar o triplo do número indicado pelo usuário,Na expressão {n*3} valor da varável n será multiplicado por 3, e o resultado destaoperação, será inserido na string {n}.
+De forma similar irá ocorer uma operação para encontrar o triplo do número indicado pelo usuário,Na expressão {n*3} valor da varável n será multiplicado por 3, e o resultado destaoperação, será inserido na string {n}.
 
-Na linha 5 para realizar a operação da raiz quadrada, terá que ser multiplicado o valor {n} pela seguinda expressão {n**0.5}, para encontrar a raiz do número indicado pelo usuário. Após os calculos realizados, ira apresentar as seguintes mensagens na tela
+Para realizar a operação da raiz quadrada, terá que ser multiplicado o valor {n} pela seguinda expressão {n**0.5}, encontrando o resultado da raiz quadrada. Após os calculos realizados, ira apresentar as seguintes mensagens na tela
 
 "
 Me informe o seu número da sorte: 15
